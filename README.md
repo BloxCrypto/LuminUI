@@ -1,6 +1,13 @@
 # LuminUI Libary
 Made By @Leviform
 
+Links
+
+[Scriptblox.com](https://scriptblox.com/u/AutoCracked)
+
+[rscripts.net](https://rscripts.net/@Leviform)
+
+
 ---
 
 installation is important
