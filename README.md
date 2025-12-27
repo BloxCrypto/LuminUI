@@ -63,7 +63,7 @@ end)
 adding slider
 
 ```
-AimbotTab:AddSlider("random slider", 0, 100, 10, function(value)
+Tab:AddSlider("random slider", 0, 100, 10, function(value)
     print("Slider value:", value)
 end)
 ```
