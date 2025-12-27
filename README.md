@@ -17,7 +17,7 @@ local LuminUI = loadstring(game:HttpGet("https://r4-sec.vercel.app/files/3f14dd7
 
 Notify optional
 ```
-Window:Notify({
+LuminUI:Notify({
     Title = "Success",
     Content = "Action completed successfully!",
     Duration = 5  -- Stays for 5 seconds (default is 3)
@@ -27,7 +27,7 @@ Window:Notify({
 Window os very important ill add more features soon
 
 ```
-local Window = Library:CreateWindow({
+local LuminUI = Library:CreateWindow({
     Name = "LuminUI | Release 1.0"
 })
 ```
@@ -35,7 +35,7 @@ local Window = Library:CreateWindow({
 Adding tabs
 
 ```
-local Tab = Window:CreateTab("tab")
+local Tab = LuminUI:CreateTab("tab")
 ```
 
 Adding section
