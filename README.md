@@ -28,7 +28,7 @@ Window os very important ill add more features soon
 
 ```
 local Window = Library:CreateWindow({
-    Name = "LuminUI | Jul 7 2021"
+    Name = "LuminUI | Release 1.0"
 })
 ```
 
