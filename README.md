@@ -27,7 +27,7 @@ LuminUI:Notify({
 Window os very important ill add more features soon
 
 ```
-local LuminUI = Library:CreateWindow({
+local LuminUI = LuminUI:CreateWindow({
     Name = "LuminUI | Release 1.0"
 })
 ```
@@ -77,7 +77,7 @@ Tab:AddParagraph("Welcome", "This is a paragraph with a title and content that a
 Adding dropdown
 
 ```
-CombatTab:AddDropdown("Select Weapon", {"Sword", "Bow", "Staff", "Axe", "Dagger"}, "Sword", function(value)
+Tab:AddDropdown("Select Weapon", {"Sword", "Bow", "Staff", "Axe", "Dagger"}, "Sword", function(value)
     print("Weapon selected:", value)
 end)
 ```
