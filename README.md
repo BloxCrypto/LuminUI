@@ -74,3 +74,10 @@ adding paragraph
 ```
 Tab:AddParagraph("Welcome", "This is a paragraph with a title and content that automatically wraps and resizes based on the text length.")
 ```
+Adding dropdown
+
+```
+CombatTab:AddDropdown("Select Weapon", {"Sword", "Bow", "Staff", "Axe", "Dagger"}, "Sword", function(value)
+    print("Weapon selected:", value)
+end)
+```
