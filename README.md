@@ -36,6 +36,7 @@ Adding tabs
 
 ```
 local Tab = LuminUI:CreateTab("tab")
+local Tab = LuminUI:CreateTab("home", "wifi") -- lucide.dev icon
 ```
 
 Adding section
